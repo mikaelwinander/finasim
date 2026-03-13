@@ -1,15 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-    /* Brand Colors */
-    --color-primary: #2563eb;       /* A nice SaaS blue */
-    --color-primary-hover: #1d4ed8; 
-  
-    /* Surface & Text Colors */
-    --color-background: #f8fafc;
-    --color-surface: #ffffff;
-    --color-text-main: #0f172a;
-    --color-text-muted: #64748b;
-  
-    /* Status Colors */
-    --color-error: #ef4444;
-    --color-success: #22c55e;
-  }
+  /* Brand Colors */
+  --color-primary: #2563eb;       /* A nice SaaS blue */
+  --color-primary-hover: #1d4ed8; 
+
+  /* Surface & Text Colors */
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+
+  /* Status Colors */
+  --color-error: #ef4444;
+  --color-success: #22c55e;
+}
